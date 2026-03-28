@@ -1,77 +1,16 @@
-# 💼 Job Finder Web App
+# React + Vite
 
-## 📌 Project Description
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-This project is a web application that helps users find job vacancies based on their skills and knowledge. It fetches real-time job listings from an external API and displays them in an easy-to-use interface.
+Currently, two official plugins are available:
 
-Users can search for jobs, filter results, and explore opportunities relevant to their interests.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
----
+## React Compiler
 
-## 🎯 Purpose
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-The goal of this project is to demonstrate:
+## Expanding the ESLint configuration
 
-* API integration using JavaScript (`fetch`)
-* Use of Array Higher-Order Functions
-* Dynamic UI rendering
-* Responsive web design
-
----
-
-## 🌐 API Used
-
-This project uses the **TheirStack Jobs API** to fetch job listings.
-
-* Base URL: https://api.theirstack.com/v1/jobs/search
-* Documentation: https://theirstack.com/en/docs/api-reference
-
----
-
-## ✨ Planned Features
-
-### 🔍 Search
-
-* Users can search jobs based on keywords (e.g., "React", "Python", "Internship")
-
-### 🎛️ Filtering
-
-* Filter jobs by:
-
-  * Location
-  * Job type (Full-time, Part-time, Remote)
-  * Experience level
-
-### 📊 Sorting
-
-* Sort jobs by:
-
-  * Date posted
-  * Relevance
-  * Company name
-
-### ❤️ User Interaction
-
-* Save / Favorite jobs
-
-### 🌙 UI Features
-
-* Dark Mode / Light Mode toggle
-
----
-
-## ⚙️ Technologies Used
-
-* HTML
-* CSS 
-* JavaScript
-* Fetch API
-
----
-## 🚀 How to Run the Project
-
-* Clone the repository:
-
-1. git clone https://github.com/your-username/job-finder-app.git
-2. Open the project folder
-3. Open index.html in your browser
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
